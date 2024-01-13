@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Figtree-Regular;
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Figtree-Semibold;
+  src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Figtree-ExtraBold;
+  src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+:root {
+  /* FONTS */
+  --ff-figtree-regular: Figtree-Regular, sans-serif;
+  --ff-figtree-semibold: Figtree-SemiBold, sans-serif;
+  --ff-figtree-extraBold: Figtree-ExtraBold, sans-serif;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  font-family: var(--ff-figtree-semibold);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow-bg {
+  background: #f4cf4e;
+}
+
+.learn-tag {
+  padding: 4px 10px;
+  width: 80px;
+  font-size: 14px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.card-container {
+  box-shadow: 8px 8px 0px 0px #000;
+  width: 384px;
+  background: white;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.hover {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hover:hover {
+  color: #f4cf4e;
+}
+
+.attribution {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
